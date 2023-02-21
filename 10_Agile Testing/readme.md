@@ -3,5 +3,6 @@ readme
 Coba nambah branch baru
 a
 b
-c
+0
 d
+Tambah lagi
