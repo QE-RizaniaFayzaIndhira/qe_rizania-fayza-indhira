@@ -1,0 +1,3 @@
+starter\User\POST_a_new_user.class
+starter\stepdefinitions\POST_a_new_userSteps.class
+starter\CucumberTestSuite.class

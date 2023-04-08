@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"POST - add new user","POST - as a user i want to add new user with invalid query parameter","SUCCESS","2023-04-08T20:36:29.385+07:00[Asia/Bangkok]","0.0","2.76"
