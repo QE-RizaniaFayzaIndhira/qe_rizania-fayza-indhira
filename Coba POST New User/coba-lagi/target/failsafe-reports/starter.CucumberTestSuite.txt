@@ -1,10 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 6.608 s <<< FAILURE! - in starter.CucumberTestSuite
-POST - add new user.POST - as a user i want to add new user with valid query parameter  Time elapsed: 0.762 s  <<< ERROR!
-org.json.JSONException: A JSON Object can not directly nest another JSON Object or JSON Array. at 136 [character 137 line 1]
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.497 s <<< FAILURE! - in starter.CucumberTestSuite
+POST - add new user.POST - as a user i want to add new user  Time elapsed: 1.876 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path 'email' doesn't match.
+Expected: John@gmail.com
+  Actual: null
 
-POST - add new user.POST - as a user i want to add new user  Time elapsed: 0.037 s  <<< ERROR!
-org.json.JSONException: A JSON Object can not directly nest another JSON Object or JSON Array. at 136 [character 137 line 1]
 
